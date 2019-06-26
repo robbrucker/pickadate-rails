@@ -356,7 +356,7 @@ function PickerConstructor( ELEMENT, NAME, COMPONENT, OPTIONS ) {
              * Close the picker
              */
             close: function( giveFocus ) {
-
+                console.log("Closed called");
                 // If we need to give focus, do it before changing states.
                 if ( giveFocus ) {
                     if ( SETTINGS.editable ) {
