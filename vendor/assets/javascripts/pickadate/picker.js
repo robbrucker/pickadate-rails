@@ -295,7 +295,7 @@ function PickerConstructor( ELEMENT, NAME, COMPONENT, OPTIONS ) {
 
                             // If the target was the holder that covers the screen,
                             // keep the element focused to maintain tabindex.
-                            P.close( target === P.$holder[0] )
+                            //P.close( target === P.$holder[0] )
                         }
 
                     }).on( 'keydown.' + STATE.id, function( event ) {
